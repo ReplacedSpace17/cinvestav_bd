@@ -1,0 +1,152 @@
+[
+    {
+        "id": "1",
+        "Tipo de analisis": "genomica",
+        "Responsable": "Dr. Ana Torres",
+        "Fecha": "2023-10-01",
+        "Sitio": "Poza azul",
+        "datos_generales": {
+            "Carpeta de muestreo": "Ana_Torres/genomica/1/carpeta_muestreo",
+            "Fecha":"2023-10-01",
+            "Responsable": "Dr. Ana Torres"
+        },
+        "caracteristicas_muestra": {
+           "ID de la muestra": "BR1",
+           "Genero": "Bacillus Subtillis",
+           "Numero de cepario": "GOB1089",
+           "Sitio": "Poza azul",
+           "Sitio especifico": "Poza 1 Sitio B",
+           "Tipo de muestra": "Agua",
+           "Caracteristicas especificas de la muestra": "Capa 1 replica 1"
+        },
+        "datos_Secuencia":{
+            "Tipo de analisis": "Secuenciacion de ADN",
+            "Metodo de extraccion": "Qiagen",
+            "Plataforma de Secuenciación": "Illumina",
+            "Lugar de Secuenciación": "Langebio",
+            "Datos crudos": "https://example.com/Datos crudos/BR1",
+            "Secuencias ensambladas": "https://example.com/datos_procesados/BR1",
+            "Software utilizado": "SPAdes v3.15.0",
+            "Bioproject": "PRJNA123456",
+            "BioSample": "SAMN12345678",
+            "SRA": "SRR12345678",
+            "NCBI_Assembly": "GCA_123456789.1"
+        },
+        "datos_administrativos": {
+            "Software utilizado": "SPAdes v3.15.0",
+            "Publicaciones asociadas": "doi:10.1234/abcd.2023",
+            "comentarios": "Análisis completado con éxito."
+        }
+    },
+    {
+        "id": "2",
+        "Tipo de analisis": "16s",
+        "Responsable": "Dr. Luis Pérez",
+        "Fecha": "2023-10-02",
+        "Sitio": "Poza azul",
+        "datos_generales": {
+           "Fecha": "2023-10-02",
+           "Nombre de cepa": "288",
+           "Estrategia de muestreo": "Ejemplo"
+        },
+        "informacion_Sitio": {
+            "Sitio": "Poza azul",
+            "Sitio especifico": "Poza 1 Sitio B",
+            "profundidad": "Top",
+            "Tipo de muestra": "Agua"
+            
+        },
+        "datos_Secuencia":{
+            "tratamiento": "Heated",
+            "Fenotipo_1": "en proceso",
+            "Fenotipo_2": "en proceso",
+            "Fenotipo_3": "en proceso",
+            "Secuencia":"GCTACTGCTGTACATGCAAGTCGAGCGGA",
+            "Longitud de Secuencia": 29
+        },
+        "enlaces": {
+            "imagen_cepas_puras": "Luis_perez/16s/2/imagen_cepas_puras",
+            "imagen_muestreo": "Luis_perez/16s/2/imagen_muestreo",
+            "ufc": "Luis_perez/16s/2/ufc"
+        }
+
+    },
+    {
+        "id": "3",
+        "Tipo de analisis": "metagenomas",
+        "Responsable": "Dr. Maria Lopez",
+        "Fecha": "2023-10-03",
+        "Sitio": "Poza azul",
+        "datos_generales": {
+            "Carpeta de muestreo": "Maria_Lopez/metagenomas/3/carpeta_muestreo",
+            "Fecha": "2023-10-03",
+            "Responsable": "Dr. Maria Lopez"
+        },
+        "caracteristicas_muestra": {
+            "ID de la muestra": "BR3",
+            "Genero": "Bacillus Subtillis",
+            "Numero de cepario": "GOB1090",
+            "Sitio": "Poza azul",
+            "Sitio especifico": "Poza 1 Sitio B",
+            "Tipo de muestra": "Agua",
+            "Caracteristicas especificas de la muestra": "Capa 1 replica 1"
+        },
+        "datos_Secuencia": {
+            "Tipo de analisis": "Metagenomica",
+            "Metodo de extraccion": "Qiagen",
+            "Plataforma de Secuenciación": "Illumina",
+            "Lugar de Secuenciación": "Langebio",
+            "Datos crudos": "https://example.com/Datos crudos/BR3",
+            "Secuencias ensambladas": "https://example.com/datos_procesados/BR3",
+            "Software utilizado": "SPAdes v3.15.0",
+            "Bioproject": "PRJNA123457",
+            "BioSample": "SAMN12345679",
+            "SRA": "SRR12345679",
+            "NCBI_Assembly": "GCA_123456790.1"
+        },
+        "datos_administrativos": {
+            "Software utilizado": "SPAdes v3.15.0",
+            "Publicaciones asociadas": "doi:10.1234/abcd.2023",
+            "comentarios": "Análisis completado con éxito."
+        }
+    },
+    {
+        "id": "4",
+        "Tipo de analisis": "genomica",
+        "Responsable": "Dr. Ana Torres",
+        "Fecha": "2023-10-04",
+        "Sitio": "Poza azul",
+        "datos_generales": {
+            "Carpeta de muestreo": "Ana_Torres/genomica/4/carpeta_muestreo",
+            "Fecha": "2023-10-04",
+            "Responsable": "Dr. Ana Torres"
+        },
+        "caracteristicas_muestra": {
+            "ID de la muestra": "BR4",
+            "Genero": "Bacillus Subtillis",
+            "Numero de cepario": "GOB1091",
+            "Sitio": "Poza azul",
+            "Sitio especifico": "Poza 1 Sitio B",
+            "Tipo de muestra": "Agua",
+            "Caracteristicas especificas de la muestra": "Capa 1 replica 1"
+        },
+        "datos_Secuencia": {
+            "Tipo de analisis": "Secuenciacion de ADN",
+            "Metodo de extraccion": "Qiagen",
+            "Plataforma de Secuenciación": "Illumina",
+            "Lugar de Secuenciación": "Langebio",
+            "Datos crudos": "https://example.com/Datos crudos/BR4",
+            "Secuencias ensambladas": "https://example.com/datos_procesados/BR4",
+            "Software utilizado": "SPAdes v3.15.0",
+            "Bioproject": "PRJNA123458",
+            "BioSample": "SAMN12345680",
+            "SRA": "SRR12345680",
+            "NCBI_Assembly": "GCA_123456791.1"
+        },
+        "datos_administrativos": {
+            "Software utilizado": "SPAdes v3.15.0",
+            "Publicaciones asociadas": "doi:10.1234/abcd.2023",
+            "comentarios": "Análisis completado con éxito."
+        }
+    }
+]
