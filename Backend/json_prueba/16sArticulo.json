@@ -1,0 +1,23 @@
+{
+  "type_form": "16s_articulo",
+  "id_responsable": "rs17",
+  "informacion_sitio": {
+    "fecha": "2025-09",
+    "sitio": "Churince",
+    "sitio_especifico": "Poza principal",
+    "profundidad": "0-10 cm",
+    "tipo_muestra": "Agua",
+    "secuencia": "ATGCGTACGTTAGCTAGCTAGCTAG",
+    "longitud_secuencia": 1500
+  },
+  "informacion_ncbi": {
+    "bioproject": "PRJNA123456",
+    "biosample": "SAMN12345678",
+    "sra": "SRR12345678",
+    "ncbi_assembly": "GCA_123456789.1",
+    "accession": "ABC123456",
+    "genomas": "E. coli K12 complete genome",
+    "taxonomias": "Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Escherichia"
+  },
+  "link_auxiliar": "http://drive.com/16s_articulo_auxiliar"
+}

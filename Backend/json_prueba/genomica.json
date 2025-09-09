@@ -1,0 +1,55 @@
+{
+  "type_form": "genomica",
+  "datos_generales": {
+    "url_carpeta_muestreo": "none",
+    "id_responsable": "rs17",
+    "date": "2025-11",
+    "link_auxiliar": "ssds",
+    "imgs": [
+      {
+        "name": "imagen 1(2).png",
+        "base64": "data:image/png;base64,iVBORw0",
+        "description": "xsxs"
+      }
+    ]
+  },
+  "muestra": {
+    "codigo_muestra": "xs",
+    "genero": "xs",
+    "numero_cepario_GOB": "xs",
+    "sitio": "Churince",
+    "sitio_especifico": "xs",
+    "tipo_muestra": "Core",
+    "carcateristicas_muestra": "xs"
+  },
+  "datos_secuencia": {
+    "tipo_analisis": "Metagenoma",
+    "metodo_extraccion": "xs",
+    "plataforma_secuenciacion": "Illumina",
+    "lugar_secuenciacion": "Novogene",
+    "url_datos_crudos": [
+      {
+        "extension": "fasta",
+        "encabezado": ">seq1_Homo_sapiens",
+        "secuencia": "ATGCGTACGTAGCTAGCTAGCTAGCTAGGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGC"
+      }
+    ],
+    "url_secuencias_ensambladas": [
+      {
+        "extension": "fasta",
+        "encabezado": ">seq3_Danio_rerio",
+        "secuencia": "ATGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTA"
+      }
+    ],
+    "software_utilizado": "xsxs",
+    "bioproject": "xs",
+    "biosample": "xs",
+    "sra": "xs",
+    "ncbi_assembly": "xs"
+  },
+  "datos_administrativos": {
+    "software_utilizado": "xs",
+    "publicaciones_relacionadas": "xs",
+    "notas_comentarios": "xs"
+  }
+}

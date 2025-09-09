@@ -1,0 +1,34 @@
+{
+  "type_form": "metagenomas",
+  "datos_generales": {
+    "id_responsable": "rs17",
+    "date": "2025-09",
+    "url_carpeta_muestreo": "archivos/user1/metagenomas/2025/09/01/unique_id/carpeta_muestreo",
+    "link_auxiliar": "http://drive.com/metagenomas_auxiliar"
+  },
+  "muestra": {
+    "codigo_muestra": "MUE-MG-001",
+    "sitio": "Churince",
+    "sitio_especifico": "Poza principal",
+    "tipo_muestra": "Agua",
+    "carcateristicas_muestra": "Muestra de superficie, ligera turbidez y olor sulfúrico"
+  },
+  "datos_secuencia": {
+    "tipo_analisis": "Metagenoma",
+    "metodo_extraccion": "Kit Qiagen DNeasy PowerWater",
+    "plataforma_secuenciacion": "Illumina",
+    "lugar_secuenciacion": "Novogene",
+    "url_datos_crudos": "archivos/user1/metagenomas/2025/09/01/unique_id/datos_crudos",
+    "url_secuencias_ensambladas": "archivos/user1/metagenomas/2025/09/01/unique_id/secuencias_ensambladas",
+    "software_utilizado": "SPAdes, MetaPhlAn",
+    "bioproject": "PRJNA654321",
+    "biosample": "SAMN87654321",
+    "sra": "SRR87654321",
+    "ncbi_assembly": "GCA_987654321.1"
+  },
+  "datos_administrativos": {
+    "software_utilizado": "QIIME2, RStudio",
+    "publicaciones_relacionadas": "[DOI:10.1038/s41598-021-54321], [PubMed:87654321]",
+    "notas_comentarios": "La muestra se procesó siguiendo el protocolo estándar de metagenómica ambiental."
+  }
+}

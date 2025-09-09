@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Layout,
   Menu,
@@ -26,15 +26,21 @@ import Metagenomas from './Metagenomas';
 import ListaArchivos from './files/ListaArchivos'; // Import the ListaArchivos component
 import BusquedaPorTabla from './search/SearchByTable'; // Import the SearchByTable component
 import GrafoDeAnalisis from './search/SearchByGrafo'; // Import the SearchByGrafo component
+import { useParams } from "react-router-dom";
+import userSession from "../../config/Sessions";
 
 const { Header, Sider, Content } = Layout;
 const { Title } = Typography;
 const { SubMenu } = Menu;
 
 const Inicio = () => {
+  //obtener el user de la url 
+  
+  
+  
   const [collapsed, setCollapsed] = useState(false);
   const [selectedKey, setSelectedKey] = useState('0');
-
+const [user, setUser] = useState("");
   const toggleCollapsed = () => {
     setCollapsed(!collapsed);
   };
@@ -42,6 +48,20 @@ const Inicio = () => {
   const handleMenuClick = ({ key }) => {
     setSelectedKey(key);
   };
+
+  useEffect(() => {
+  const userData = userSession.getUser();
+  if (!userData?.token) {
+    console.log("No hay token, redirigiendo a login...");
+    navigate("/login");
+  } else {
+    console.log("Token encontrado:", userData.token);
+    //imprmirm el usuairo en consola
+    console.log("Usuario:", userData.usuario);
+    setUser(userData.usuario);
+  }
+}, []);
+
 
   const keyToTitle = {
     '0': 'Inicio',
@@ -57,12 +77,12 @@ const Inicio = () => {
   
   
   const componentMap = {
-    '1': <Genomica />,
-    '2': <XVI_S />,
-    '3': <XVI_S_articulo />,
-    '4': <XVIII_S />,
-    '5': <Metagenomas />,
-    '6': <ITS />,
+    '1': <Genomica user={user} />,
+    '2': <XVI_S user={user} />,
+    '3': <XVI_S_articulo user={user} />,
+    '4': <XVIII_S user={user} />,
+    '5': <Metagenomas user={user} />,
+    '6': <ITS user={user} />,
     '7': <BusquedaPorTabla />, // por ejemplo, tabla
     '8': <GrafoDeAnalisis />, // por ejemplo, grafo
   };

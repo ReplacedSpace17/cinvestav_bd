@@ -1,0 +1,30 @@
+{
+  "type_form": "16s",
+  "datos_generales": {
+    "id_responsable": "rs17",
+    "date": "2025-09",
+    "nombre_cepa": "E. coli K12",
+    "estrategia_muestreo": "Recolección de muestras de agua superficial",
+    "link_auxiliar": "http://drive.com/16s_auxiliar"
+  },
+  "informacion_sitio": {
+    "sitio": "Churince",
+    "sitio_especifico": "Poza principal",
+    "profundidad": "0-10 cm",
+    "tipo_muestra": "Agua"
+  },
+  "datos_secuencia": {
+    "tratamiento": "Filtrado y extracción de ADN",
+    "fenotipo_1": "Gram negativo",
+    "fenotipo_2": "No patógeno",
+    "fenotipo_3": "Forma bacilar",
+    "secuencia": "ATGCGTACGTTAGCTAGCTAGCTAG",
+    "longitud_secuencia": 1500
+  },
+  "enlaces": {
+    "link_imagenes_cepas_puras": "archivos/user1/16s/imagenes/cepas_puras",
+    "link_imagenes_muestreo": "archivos/user1/16s/imagenes/muestreo",
+    "links_ufc": "archivos/user1/16s/ufc",
+    "link_detalles": "archivos/user1/16s/detalles"
+  }
+}

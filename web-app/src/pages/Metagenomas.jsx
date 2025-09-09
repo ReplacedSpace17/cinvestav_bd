@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router-dom';
 import '././../styles/genomic.css'; // o el nombre de tu archivo CSS
 
 
-const Metagenomas = () => {
+const Metagenomas = ({user}) => {
   const [current, setCurrent] = useState(0);
   const [form] = Form.useForm();
 const navigate = useNavigate();

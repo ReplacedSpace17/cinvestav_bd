@@ -6,7 +6,7 @@ const { Step } = Steps;
 const { Title } = Typography;
 const { Option } = Select;
 
-const XVI_S_articulo = () => {
+const XVI_S_articulo = ({user}) => {
   const navigate = useNavigate();
   const [current, setCurrent] = useState(0);
   const [form] = Form.useForm();

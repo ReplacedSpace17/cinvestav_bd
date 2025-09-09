@@ -1,0 +1,30 @@
+{
+  "type_form": "18s",
+  "datos_generales": {
+    "id_responsable": "rs17",
+    "fecha": "2025-09",
+    "nombre_cepa": "Cepa A",
+    "estrategia_muestreo": "Muestreo superficial"
+  },
+  "informacion_sitio": {
+    "sitio": "Churince",
+    "sitio_especifico": "Poza secundaria",
+    "profundidad": "0-20 cm",
+    "tipo_muestra": "Agua"
+  },
+  "datos_secuencia": {
+    "tratamiento": "Filtración y lisis química",
+    "fenotipo_1": "Fenotipo X",
+    "fenotipo_2": "Fenotipo Y",
+    "fenotipo_3": "Fenotipo Z",
+    "secuencia": "ATGCGTACGTTAGCTAGCTAGCTAGCTAGCTAG",
+    "longitud_secuencia": 1800
+  },
+  "enlaces": {
+    "imagenes_cepas_puras": "archivos/user1/18s/imagenes_cepas_puras",
+    "imagenes_muestreo": "archivos/user1/18s/imagenes_muestreo",
+    "ufc": "archivos/user1/18s/ufc",
+    "detalle_muestreo": "archivos/user1/18s/detalle_muestreo"
+  },
+  "link_auxiliar": "http://drive.com/18s_auxiliar"
+}

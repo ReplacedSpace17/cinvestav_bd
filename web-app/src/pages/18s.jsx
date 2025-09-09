@@ -9,7 +9,7 @@ const { Step } = Steps;
 const { Title } = Typography;
 const { Option } = Select;
 
-const XVIII_S = () => {
+const XVIII_S = ({user}) => {
   const navigate = useNavigate();
   const [current, setCurrent] = useState(0);
   const [form] = Form.useForm();

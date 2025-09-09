@@ -14,12 +14,19 @@ import Inicio from './pages/Menu'; // Import the Menu component
 import BusquedaPorTabla from './pages/search/SearchByTable'; // Import the SearchByTable component
 import BusquedaPorGrafo from './pages/search/SearchByGrafo'; // Import the SearchByGrafo component
 import React from 'react';
+import LoginPage from './pages/Login'; // Import the LoginPage
+import PanelUser from './pages/SuperAdmin/PanelUser'; // Import the PanelUser component
+
+import ExampleForm from './pages/example/Example'; // Import the Example component
+import Example2 from './pages/Example2'; // Import the Example2 component
 
 const App = () => (
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Inicio />} />
+      
+      <Route path="/" element={<LoginPage />} />
       <Route path="/menu" element={<Inicio />} /> {/* Add the Menu route */}
+      <Route path="/panel-user" element={<PanelUser />} /> {/* Add the PanelUser route */}
       <Route path="/genomica" element={<Genomica />} />
       <Route path="/16s" element={<XVI_S />} />
       <Route path="/16s_articulo" element={<XVI_S_articulo />} />
@@ -29,6 +36,8 @@ const App = () => (
       <Route path="/search-by-table" element={<BusquedaPorTabla />} /> {/* Add the SearchByTable route */}
       <Route path="/search-by-grafo" element={<BusquedaPorGrafo />} /> {/* Add the SearchByGrafo route */}
       <Route path="/lista-archivos/*" element={<ListaArchivos />} />
+      <Route path="/example" element={<Example />} />
+      <Route path="/example2" element={<Example2 />} />
 
 
 
@@ -37,7 +46,7 @@ const App = () => (
       {/* Add the Example route */}
       
       
-      <Route path="/example" element={<Example />} />
+      <Route path="/example-form" element={<ExampleForm />} />
      
     </Routes>
   </BrowserRouter>
